@@ -19,6 +19,5 @@ public class DispatcherJSPServlets extends HttpServlet {
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/search_form.jsp");
         requestDispatcher.forward(request, response);
         }
-        
     }
 
