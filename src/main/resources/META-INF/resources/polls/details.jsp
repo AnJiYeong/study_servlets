@@ -26,7 +26,7 @@
     </div>
     <div>
         <%
-            ArrayList<HashMap> answer_list = null;;
+            ArrayList<HashMap> answer_list = null;
             answer_list = (ArrayList<HashMap>)request.getAttribute("answer_list");
         %>
         <%

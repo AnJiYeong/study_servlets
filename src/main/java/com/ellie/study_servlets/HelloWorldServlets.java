@@ -11,7 +11,6 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/helloWorldServlets")
 public class HelloWorldServlets extends HttpServlet {
     protected void 	doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
-
         String firstName = request.getParameter("firstName");
         String secondName = request.getParameter("secondName");
         String hiddenParam = request.getParameter("hiddenParam");
