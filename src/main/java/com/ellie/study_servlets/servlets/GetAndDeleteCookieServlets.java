@@ -38,4 +38,5 @@ public class GetAndDeleteCookieServlets extends HttpServlet{
 
         printWriter.close();
     }
+
 }
